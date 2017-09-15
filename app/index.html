@@ -7,6 +7,12 @@
 </head>
 
 <body>
+  <nav class="navbar">
+    <div>
+      <a ui-sref="home" class="navbar-link">Home</a>  |  <a ui-sref="metric" class="navbar-link">Metrics</a>
+    </div>
+  </nav>
+
   <ui-view></ui-view>
 
   <!-- Angular -->
@@ -37,5 +43,6 @@
   <!-- Application Files -->
   <script src="/scripts/app.js"></script>
   <script src="/scripts/controllers/HomeCtrl.js"></script>
+  <script src="/scripts/controllers/MetricCtrl.js"></script>
 </body>
 </html>

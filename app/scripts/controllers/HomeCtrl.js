@@ -3,6 +3,6 @@
     }
 
     angular
-        .module('FE_Blocmetrics')
-        .controller('HomeCtrl', [HomeCtrl]);
+      .module('FE_Blocmetrics')
+      .controller('HomeCtrl', [HomeCtrl]);
 })();
