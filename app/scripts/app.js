@@ -11,6 +11,11 @@
               url: '/',
               controller: 'HomeCtrl as home',
               templateUrl: '/templates/home.html'
+          })
+          .state('metric', {
+              url: '/metric',
+              controller: 'MetricCtrl as metric',
+              templateUrl: '/templates/metric.html'
           });
    }
 

@@ -1,0 +1,24 @@
+body {
+  font-family: 'Helvetica', Georgia;
+  background-color: Whitesmoke;
+  font-weight: lighter;
+  color: DarkGrey;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* nav style */
+.navbar {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.navbar a:hover {
+  color: Blue;
+}
+
+/* heading style */
+.heading {
+  text-align: left;
+  margin-bottom: 100px;
+  color: Gainsboro;
+}
